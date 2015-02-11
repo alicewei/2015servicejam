@@ -325,7 +325,6 @@ a:hover {
   border-bottom: 1px solid #ccc;
 }
 .p-center {
-  /*border: 1px solid red;*/
   width: 70%;
   margin: 0 auto 0 auto;
   text-align: center;
@@ -423,10 +422,9 @@ p.titleIn.first {
   margin: 0 auto 0;
   text-align: center;
   width: 100%;
-  /*border: 1px solid red;*/
 }
 .sponsor {
-  width: 85%;
+  width: 100%;
   margin: 0 auto 0 auto;
   padding-top: 10px;
 }
@@ -435,7 +433,7 @@ p.titleIn.first {
 }
 .sponsor a img {
   width: auto;
-  height: 180px;
+  height: 170px;
 }
 .sponsor a:last-child {
   margin-right: 0;
@@ -507,14 +505,13 @@ p.titleIn.first {
     margin: 0 auto 0;
     text-align: center;
     width: 60%;
-    /*border: 1px solid red;*/
   }  
   .sponsor {
     width: 100%;
   }
   .sponsor a img {
     width: auto;
-    height: 140px;
+    height: 130px;
   }     
 }
 
@@ -540,9 +537,12 @@ p.titleIn.first {
   .text-peo{
     width: 90%;
   }  
+  .sponsor {
+    width: 90%;
+  }  
   .sponsor a img {
     width: auto;
-    height: 120px;
+    height: 145px;
   }  
 }
 
@@ -564,11 +564,14 @@ p.titleIn.first {
   } 
   .text-peo{
     width: 98%;
+  } 
+  .sponsor {
+    width: 90%;
   }    
   .sponsor a img {
     width: auto;
-    height: 90px;
-  }     
+    height: 120px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -577,6 +580,9 @@ p.titleIn.first {
     background-size: 130%;
     background-position: center center;
     height: 200px;
+  }
+  .sponsor {
+    width: 72%;
   }
   .sponsor a img {
     width: auto;
